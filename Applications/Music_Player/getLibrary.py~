@@ -1,0 +1,5 @@
+#!/usr/bin/ipython
+
+library_file = open('/srv/http/.config/cmus/lib.pl');
+x = library_file.readlines()
+print(x)

